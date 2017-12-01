@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    user:
+      path: /user/**
+      serviceId: xteam-purchase-user
+      stripPrefix: false
