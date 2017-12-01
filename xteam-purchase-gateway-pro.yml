@@ -4,3 +4,12 @@ zuul:
       path: /user/**
       serviceId: xteam-purchase-user
       stripPrefix: false
+
+      
+login:
+  requested:
+    urls:
+      -
+        user/user_GET
+      -
+        user/user_POST
