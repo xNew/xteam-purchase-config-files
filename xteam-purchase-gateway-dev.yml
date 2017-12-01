@@ -9,6 +9,6 @@ login:
   requested:
     urls:
       -
-        user/user_GET
+        /user/user_GET
       -
-        user/user_POST
+        /user/user_POST
