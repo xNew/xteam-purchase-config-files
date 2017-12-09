@@ -1,7 +1,7 @@
 zuul:
   routes:
     user:
-      path: /user/**
+      path: /api/user/**
       serviceId: xteam-purchase-user
       stripPrefix: false
 
