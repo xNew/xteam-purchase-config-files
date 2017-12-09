@@ -3,7 +3,7 @@ zuul:
     user:
       path: /api/user/**
       serviceId: xteam-purchase-user
-      stripPrefix: false
+      stripPrefix: true
     region:
       path: /region/**
       serviceId: xteam-purchase-user
