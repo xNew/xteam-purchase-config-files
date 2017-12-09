@@ -13,6 +13,16 @@ login:
   requested:
     urls:
       -
-        /user/user&&GET
+        /api/user/user&GET
       -
-        /user/user&&POST
+        /api/user/password&PUT
+      -
+        /api/user/address&GET
+      -
+        /api/user/address&POST
+      -
+        /api/user/address&PUT
+      -
+        /api/user/address&DELETE
+      -
+        /api/user/addresses&GET
