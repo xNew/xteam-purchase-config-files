@@ -4,11 +4,12 @@ zuul:
       path: /api/user/**
       serviceId: xteam-purchase-user
       stripPrefix: true
+      prefix: /api
     region:
-      path: /region/**
+      path: /api/region/**
       serviceId: xteam-purchase-user
       stripPrefix: false
-
+      prefix: /api
 login:
   requested:
     urls:
